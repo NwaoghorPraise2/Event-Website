@@ -33,7 +33,7 @@ app.post("/sendmail", (req) => {
     pass: 'jdiszolwlylxvktk'
   }
 });
-
+x
 
 const mailOptions = {
   from: email, // sender address
