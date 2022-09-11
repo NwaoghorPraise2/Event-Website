@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marvis Events</title>
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- header section starts  -->
+
+    <header class="header">
+      <a href="/index.html" class="logo"
+        ><span>M</span>arvi-<span>E</span>vent</a
+      >
+
+      <nav class="navbar">
+        <a href="/index.html">Home</a>
+        <a href="/index.html">Our Events</a>
+        <a href="/index.html">Services</a>
+        <a href="/index.html">Pricing</a>
+        <a href="/index.html">About Us</a>
+        <a href="/index.html">Reviews</a>
+        <a href="/index.html">Contact</a>
+        <a href="/checkout">Book Now</a>
+      </nav>
+
+      <div id="menu-bars" class="fas fa-bars"></div>
+    </header>
+    <!-- review section ends -->
+
+    <!-- contact section starts  -->
+    <!--images-->
+<!--     <section class="gallery" id="gallery">
+      <h1 class="heading">birthdays</h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="images3/ada1.jpeg" alt="" />
+          <h3></h3>
+        </div>
+
+        <div class="box">
+          <img src="images3/ada2.jpeg" alt="" />
+          <h3></h3>
+        </div>
+        
+         <div class="box">
+          <img src="images3/ada2.jpeg" alt="" />
+          <h3></h3>
+        </div>
+
+       
+      <br />
+      <h2>dumebi's 10 birthday</h2>
+    </section> -->
+
+    <section class="gallery" id="gallery">
+      <h1 class="heading" style="padding-top:10rem;">Birthdays</h1>
+         <h2 class="text-fy">Bens 5 years old birthday party</h2>
+      <div class="box-container">
+        <div class="box">
+          <img src="images3/be1.jpeg" alt="" />
+          <h3></h3>
+        </div>
+
+        <div class="box">
+          <img src="images3/be2.jpeg" alt="" />
+          <h3></h3>
+        </div>
+
+        <div class="box">
+          <img src="images3/be3.jpeg" alt="" />
+          <h3></h3>
+        </div>
+      </div>
+      <br />
+<!--       <h2>bens 5 year old party</h2> -->
+    </section>
+
+    <section class="gallery" id="gallery">
+<!--       <h1 class="heading">birthdays</h1> -->
+      <h2 class="text-fy">Jena's Birthday party</h2>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="images3/j1.jpeg" alt="" />
+          <h3></h3>
+        </div>
+
+        <div class="box">
+          <img src="images3/j2.jpeg" alt="" />
+          <h3></h3>
+        </div>
+
+        <div class="box">
+          <img src="images3/j3.jpeg" alt="" />
+          <h3></h3>
+        </div>
+      </div>
+      <br />
+<!--       <h2>jena's party</h2> -->
+    </section>
+    <!--end-->
+
+    </section>
+
+    <section class="gallery" id="gallery">
+<!--       <h1 class="heading">birthdays</h1> -->
+      <h2 class="text-fy">Jena's Birthday party</h2>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="images3/bf1.jpeg" alt="" />
+          <h3></h3>
+        </div>
+
+        <div class="box">
+          <img src="images3/be2.jpeg" alt="" />
+          <h3></h3>
+        </div>
+
+        <div class="box">
+          <img src="images3/bf3.jpeg" alt="" />
+          <h3></h3>
+        </div>
+      </div>
+      <br />
+<!--       <h2>jena's party</h2> -->
+    </section>
+
+    <section class="contact" id="contact">
+      <h1 class="heading"><span>contact</span> us</h1>
+
+      <form>
+        <div class="inputBox">
+          <input type="text" placeholder="name" id="names" required />
+          <input type="email" placeholder="email" id="email" required />
+        </div>
+        <div class="inputBox">
+          <input type="number" placeholder="number" id="number" required />
+          <input type="text" placeholder="subject" id="subject" required />
+        </div>
+        <textarea
+          name="body"
+          placeholder="your message"
+          id="body"
+          cols="30"
+          rows="10"
+          required
+        ></textarea>
+        <button
+          type="submit"
+          name="submit"
+          id="submit"
+          value="send message"
+          class="btn"
+          onclick="goto(event)"
+        >
+          Send Message
+        </button>
+      </form>
+    </section>
+
+    <!-- contact section ends -->
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>branches</h3>
+          <a href="#"> <i class="fas fa-map-marker-alt"></i> plateau state </a>
+          <a href="#"> <i class="fas fa-map-marker-alt"></i> abuja </a>
+        </div>
+
+        <div class="box">
+          <h3>quick links</h3>
+          <a href="#"> <i class="fas fa-arrow-right"></i> home </a>
+          <a href="#"> <i class="fas fa-arrow-right"></i> service </a>
+          <a href="#"> <i class="fas fa-arrow-right"></i> about </a>
+          <a href="#"> <i class="fas fa-arrow-right"></i> gallery </a>
+          <a href="#"> <i class="fas fa-arrow-right"></i> price </a>
+          <a href="#"> <i class="fas fa-arrow-right"></i> reivew </a>
+          <a href="#"> <i class="fas fa-arrow-right"></i> contact </a>
+        </div>
+
+        <div class="box">
+          <h3>contact info</h3>
+          <a href="#"> <i class="fas fa-phone"></i> +2348139574141 </a>
+          <a href="#"> <i class="fas fa-phone"></i> +2347057523994 </a>
+          <a href="#"> <i class="fas fa-envelope"></i> marvievent@gmail.com </a>
+          <a href="#"> <i class="fas fa-envelope"></i> marvi5@gmail.com </a>
+          <a href="#">
+            <i class="fas fa-map-marker-alt"></i> bukuru, jos-plateau state.
+          </a>
+        </div>
+
+        <div class="box">
+          <h3>follow us</h3>
+          <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+          <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+          <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+          <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+        </div>
+      </div>
+
+      <div class="credit">
+        created by <span>Marvi's Design</span> | all rights reserved
+      </div>
+    </section>
+
+    <!-- footer section ends -->
+
+    <!-- theme toggler  -->
+
+    <div class="theme-toggler">
+      <div class="toggle-btn">
+        <i class="fas fa-cog"></i>
+      </div>
+
+      <h3>choose color</h3>
+
+      <div class="buttons">
+        <div class="theme-btn" style="background: #3867d6"></div>
+        <div class="theme-btn" style="background: #ecc05f"></div>
+        <div class="theme-btn" style="background: #ff0033"></div>
+        <div class="theme-btn" style="background: #20bf6b"></div>
+        <div class="theme-btn" style="background: #fa8231"></div>
+        <div class="theme-btn" style="background: #fc427b"></div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+     <script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/62fbdcb237898912e9635f44/1gajtc6lu';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+  </body>
+</html>
